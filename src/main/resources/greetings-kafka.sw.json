@@ -5,7 +5,11 @@
   "expressionLang": "jsonpath",
   "description": "JSON based greeting workflow",
   "start": "HandleNewGreet",
-  "functions": [
+  "functions": [{
+    "name": ",}",
+    "operation": "https://bu98.serviceregistry.rhcloud.com/t/1b01fff1-e32d-436e-87f5-782b6f75560a/apis/registry/v2/groups/org.kie/artifacts/greetings-kafka_sandbox-ci329n473#jsongreet/{id}",
+    "type": "rest"
+  },
     {
       "name": "printMessage",
       "type": "custom",
